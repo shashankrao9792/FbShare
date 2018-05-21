@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightBlue"
+    tools:context=".FirstTimeLoginActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/firstTimeMsgFirstLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="@string/firstTimeMsg"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/firstTimeMsgSecondLine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/firstTimeMsgSecondLine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="130dp"
+        android:gravity="center_horizontal"
+        android:text="@string/secondLineFirstTimeMsg"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/firstTimeMsgNoBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstTimeMsgFirstLine" />
+
+    <Button
+        android:id="@+id/firstTimeMsgYesBtn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="23dp"
+        android:layout_marginStart="2dp"
+        android:text="Yes"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/firstTimeMsgNoBtn"
+        app:layout_constraintEnd_toStartOf="@+id/firstTimeMsgNoBtn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/firstTimeMsgNoBtn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="73dp"
+        android:text="No"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/firstTimeMsgContinueBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/firstTimeMsgYesBtn"
+        app:layout_constraintTop_toBottomOf="@+id/firstTimeMsgSecondLine" />
+
+    <Button
+        android:id="@+id/firstTimeMsgContinueBtn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:text="Continue"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstTimeMsgNoBtn" />
+</android.support.constraint.ConstraintLayout>

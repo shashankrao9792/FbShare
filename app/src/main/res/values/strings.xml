@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">FbShare</string>
+
+    <string name="facebook_app_id">1018954074918920</string>
+    <string name="fb_login_protocol_scheme">fb1018954074918920</string>
+
+    <string name="fb_login_btn">LOGIN WITH FACEBOOK</string>
+    <string name="create_new_group">Create New Group And Invite Your FB Friends</string>
+    <string name="join_a_new_group">Join a new group created by your FB Friends</string>
+    <string name="view_all_existing_groups">View groups you have joined and start sharing</string>
+    <string name="Logout">LOGOUT FROM APP</string>
+
+    <string name="firstTimeMsg">Do you wish to announce on Facebook that you have begun using this App?</string>
+    <string name="secondLineFirstTimeMsg">(Doing so is optional, but recommended, since friends on Facebook will be notified on their news feed that you are using this App, and so will be able to share with you)</string>
+
+    <string name="group_name_exists">Group name selected already exists. Please use another group name.</string>
+
+    <string name="invite_frnds_new_grp">MESSAGE FRIENDS INVITING THEM TO NEW GROUP</string>
+    <string name="dont_invite_frnds_new_grp">NAAH... THEY\'LL JOIN WHENEVER THEY WANT TO</string>
+
+
+    <string name="joingrpconf1">The following are the Group Details: </string>
+    <string name="joingrpconf2">Do you want to join this group?</string>
+
+    <string name="joinexistinggrp1">The following groups have been created by your friends; Please click on the group you want to join.</string>
+
+    <string name="joingrpmsg1">INFORM YOUR FB FRIENDS ABOUT JOINING GROUP</string>
+    <string name="joingrpmsg2">NAAH... THEY\'LL GET TO KNOW EVENTUALLY</string>
+
+    <string name="viewexisting1">You are a member of the following groups; Please click on any group to start sharing.</string>
+
+    <string name="uploadfilemsg1">Share a file from device with group members</string>
+
+    <string name="pdfBtnMsg">Share a PDF file from your device with the Group</string>
+    <string name="docBtnMsg">Share a DOCX file from your device with the Group</string>
+    <string name="imgBtnMsg">Share an Image file from your device with the Group</string>
+    <string name="audioBtnMsg">Share an Audio file from your device with the Group</string>
+    <string name="videoBtnMsg">Share a Video file from your device with the Group</string>
+    <string name="uploadBtnmsg">Upload selected files</string>
+    <string name="postFbmsg">Share on Facebook</string>
+
+    <string name="viewAllmsg">View all messages shared on this group</string>
+
+    <string name="successPostmsg">Press Continue share another post or Exit to go to the main screen</string>
+
+    <string name="shareOutsidelinkmsg">SHARE AN OUTSIDE LINK WITH GROUP MEMBERS</string>
+    <string name="outside1">You will be sharing the following link:</string>
+    <string name="outside2">Do you want to continue?</string>
+</resources>
